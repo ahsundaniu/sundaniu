@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<frameset rows="16%,* cols="*" frameborder="no" border="0" framespacing="0">
+  <frame src="header.jsp" name="topFrame"  noresize="noresize" id="topFrame" title="topFrame" />
+  <frameset rows="*" cols="*%,19%,50%,*" frameborder="no" border="0" framespacing="0">
+  <frame src="background.jsp" noresize />
+    <frame src="left.html" noresize scrolling="auto" />
+   
+   
+     <frame src="content.jsp"   name="zhong" noresize scrolling="auto"/>
+       <frame src="background.jsp" noresize />
+     </frameset>
+
+  
+</frameset>
+</html>
